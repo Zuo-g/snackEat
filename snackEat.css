@@ -1,0 +1,137 @@
+/* 背景 */
+body {
+    background-color: #343434;
+}
+
+/* 中间游戏主体 */
+#game_body {
+    width: 607px;
+    height: 607px;
+    background-color: white;
+    position: absolute;
+    z-index: 50;
+    left: 400px;
+    display: none;
+}
+
+/* 游戏开始界面 */
+#start_game {
+    width: 607px;
+    height: 450px;
+    background-image: url(image/coverPic.webp);
+    background-size: 607px 450px;
+    position: absolute;
+    z-index: 1;
+    left: 400px;
+    top: 50px;
+}
+/* 开始图标 */
+#start_game>img {
+    width: 200px;
+    height: 55px;
+    margin-top: 500px;
+    margin-left: 210px;
+}
+
+/* 左侧边栏 */
+#left_aside {
+    position: absolute;
+    z-index: 1;
+    left: 30px;
+    top: 30px;
+}
+
+/* 右侧边栏 */
+#right_aside {
+    position: absolute;
+    z-index: 1;
+    left: 1050px;
+    top: 30px;
+}
+
+/* 游戏结束界面 */
+#game_over {
+    width: 607px;
+    height: 300px;
+    text-align: center;
+    position: absolute;
+    z-index: 0;
+    left: 400px;
+    top: 130px;
+    opacity: 0%;
+    transition: opacity 2s;
+}
+/* 游戏胜利 */
+#win {
+    width: 607px;
+    height: 300px;
+    text-align: center;
+    position: absolute;
+    z-index: 0;
+    left: 400px;
+    top: 130px;
+    opacity: 0%;
+    transition: opacity 1s;
+}
+
+/* table单元格 */
+td {
+    width: 15px;
+    height: 15px;
+    border: 1px solid gray;
+    background-color: white;
+}
+
+aside {
+    width: 350px;
+    height: 100px;
+    color: white;
+}
+
+span {
+    font-size: 150%;
+}
+
+#span_title {
+    font-size: 300%;
+}
+
+/* 右侧分数 */
+#score {
+    width: 90px;
+    height: 50px;
+    font-size: 250%;
+}
+
+/* 按钮 */
+button {
+    width: 175px;
+    height: 48px;
+    font-size: 180%;
+    margin: 10px;
+}
+/* 重新开始 */
+#restart_button{
+    margin-top: 50px;
+    color:aquamarine;
+    background-color:#666666;
+}
+
+#next_button{
+    color:aquamarine;
+    background-color:#666666;
+}
+
+#right_aside>button{
+    margin-left: 50px;
+}
+
+/* 左侧难度显示框 */
+#level{
+    width: 155px;
+    height: 48px;
+    font-size: 180%;
+    color: black;
+    text-align: center;
+    margin-left: 100px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>贪吃蛇</title>
+    <script type="text/javascript" src="WEB-jQuery/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="snackEat.css">
+    <script type="text/javascript" src="snackEat.js"></script>
+</head>
+
+<body>
+    <aside id="left_aside">
+        <audio id="audio_eat" src="eat.MP3"></audio>
+        <span id="span_title">贪吃蛇</span><br><br><br>
+        <input id="level" type="text" disabled><br><br>
+        <span>温馨提示：</span><br><br>
+        <span>1. ← ↑ → ↓ 控制蛇的方向</span><br><br>
+        <span>2. p 暂停</span><br><br>
+        <span>3. 碰到边界或者身体游戏结束</span><br><br>
+        <span>4. 分数越多移动速度越快</span><br><br>
+        <span>5. 分数达到四十即可获取胜利</span><br><br>
+        <span>6. 初始难度为普通版</span><br><br>
+    </aside>
+    <div id="start_game">
+        <img id="pic" src="image/start.png">
+    </div>
+    <div id="game_over">
+        <img src="image/gameover.png"><br>
+        <button id="restart_button">重新开始</button>
+    </div>
+    <div id="win">
+        <img src="image/win.png"><br>
+        <button id="next_button">下一关</button>
+    </div>
+    <div id="game_body">
+        <table id="table_body" align="center"></table>
+    </div>
+    <aside id="right_aside">
+        <span>得分：</span>
+        <input type="text" id="score" disabled value="0000">
+        <br><br><br>
+        <span>选择难度：</span><br>
+        <button id="simple">简易版</button>
+        <button id="normal">普通版</button>
+        <button id="difficulty">高手版</button>
+        <button id="difficultyPlus">地狱版</button>
+    </aside>
+</body>
+
+</html>
