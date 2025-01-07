@@ -314,7 +314,7 @@ function addScore() {
         score_str = '0' + score_str;
     }
     $("#score").val(score_str);
-    if (score == 1) {
+    if (score == 40) {
         if (sessionStorage.speed == "50") {
             $("#win").css("z-index", 99);
             $("#win").css("opacity", "100%");
