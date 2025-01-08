@@ -18,7 +18,7 @@ body {
 #start_game {
     width: 607px;
     height: 450px;
-    background-image: url(image/coverPic.webp);
+    background-image: url(image/coverPic.png);
     background-size: 607px 450px;
     position: absolute;
     z-index: 1;
